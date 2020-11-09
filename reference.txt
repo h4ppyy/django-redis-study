@@ -1,0 +1,7 @@
+about cache
+https://github.com/jazzband/django-redis
+https://docs.djangoproject.com/en/3.1/topics/cache/
+
+about post request cache
+https://stackoverflow.com/questions/59373446/are-post-requests-cached-in-django
+https://docs.djangoproject.com/en/3.1/topics/cache/#the-low-level-cache-api

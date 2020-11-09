@@ -1,7 +1,8 @@
 version: "3.8"
 
 services:
-  django-redis:
+  redis1:
+    container_name: django-redis
     image: redis:6
     ports:
       - 6379:6379

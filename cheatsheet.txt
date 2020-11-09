@@ -1,0 +1,10 @@
+docker exec -it django-redis-1 /bin/bash
+docker exec -it django-redis-2 /bin/bash
+
+redis-cli
+
+keys *
+
+flushall
+
+get key
