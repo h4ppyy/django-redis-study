@@ -1,5 +1,4 @@
-docker exec -it django-redis-1 /bin/bash
-docker exec -it django-redis-2 /bin/bash
+docker exec -it django-redis /bin/bash
 
 redis-cli
 

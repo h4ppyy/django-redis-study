@@ -1,6 +1,4 @@
 from django.http import HttpResponse, JsonResponse
-from django.db import connections
-from django.conf import settings
 from django.core.cache import cache
 from django.views.decorators.cache import cache_page
 from django.views.decorators.csrf import csrf_exempt
